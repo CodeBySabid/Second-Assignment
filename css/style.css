@@ -8,9 +8,62 @@
     box-sizing: border-box;
 }
 
-body {
+h1{
     font-family: "Noto Serif", serif;
-    font-style: normal;
+    font-style: normal;    
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: black;
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
+
+.main-div{
+    width: 90rem;
+    height: auto;
+    background: #F5F8FF;
+}
+
+/* header section start */
+header{
+    width: 100%;
+    height: auto;
+    padding: 2rem 9.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img{
+    width: 8.438rem;
+    height: auto;
+}
+
+header nav ul{ 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;    
+}
+
+header nav ul li a{ 
+    color: black;
+}
+
+header nav ul li a img{ 
+    color: black;
+    margin-right: 0.5rem;
+    width: 1.3rem;
+}
+
+/* header section end */

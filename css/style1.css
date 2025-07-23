@@ -1,0 +1,26 @@
+@media screen and (max-width : 26.563rem) {
+
+    .main-div{
+        width: 100%;
+    }
+
+/* header section start */
+    header{
+        padding: 1rem 1rem;
+    }
+
+    header > img{
+        width: 3.938rem;
+    }
+
+    header nav ul li{
+        display: none;
+    }
+
+    .card{
+        display: block;
+        
+    }
+/* header section end */
+}
+
