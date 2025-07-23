@@ -35,7 +35,9 @@ body {
 }
 
 /* header section start */
-header{
+
+/* hero section start */
+.header{
     width: 100%;
     height: auto;
     padding: 2rem 9.375rem;
@@ -44,26 +46,63 @@ header{
     align-items: center;
 }
 
-header > img{
-    width: 8.438rem;
+.header > img{
+    width: 8rem;
     height: auto;
 }
 
-header nav ul{ 
+.header nav ul{ 
     list-style: none;
     display: flex;
     align-items: center;
     gap: 3rem;    
 }
 
-header nav ul li a{ 
+.header nav ul li a{ 
     color: black;
 }
 
-header nav ul li a img{ 
+.header nav ul a img{ 
     color: black;
     margin-right: 0.5rem;
     width: 1.3rem;
 }
+/* hero section end */
+
+/* Banner section start */
+
+
+/* Banner section end */
+.Banner{
+    width: 100%;
+    height: auto;
+    padding: 2rem 9.375rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.Banner > img{
+    width: auto;
+}
+
+.Banner > div h1{
+    font-size: 3.5rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.Banner > div h1 span{
+    color: #E95A08;
+}
+
+.Banner > div p{
+    color: #00000075;
+    line-height: 1.4rem
+}
+
+
+
+
 
 /* header section end */

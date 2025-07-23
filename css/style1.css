@@ -1,26 +1,64 @@
-@media screen and (max-width : 26.563rem) {
+@media screen and (max-width : 28rem) {
 
-    .main-div{
+    .main-div {
         width: 100%;
     }
 
-/* header section start */
-    header{
+    /* header section start */
+
+    /* hero section start */
+    .header {
         padding: 1rem 1rem;
     }
 
-    header > img{
+    .header > img {
         width: 3.938rem;
     }
 
-    header nav ul li{
+    .header nav ul li a {
         display: none;
     }
 
-    .card{
+    .card {
         display: block;
-        
     }
-/* header section end */
-}
 
+    /* hero section end */
+
+    /* Banner section start */
+    .Banner {
+        padding: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+        grid-template-areas: "box-1"
+        "box-2";
+    }
+
+    .Banner > img {
+        margin-top: 3rem;
+        grid-area: box-1;
+        width: 100%;
+    }
+
+    .Banner > div {
+        width: 100%;
+        grid-area: box-2;
+        margin-top: 1rem;
+        padding: 0.5rem;
+    }
+
+    .Banner > div h1 {
+        font-size: 7vw;
+        margin-bottom: 0rem;
+    }
+
+    .Banner > div p {
+        margin-top: 0.6rem;
+        font-size: 3.8vw;
+    }
+
+    /* Banner section end */
+    /* header section end */
+}
