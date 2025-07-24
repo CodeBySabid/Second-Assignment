@@ -78,8 +78,6 @@ body {
 /* hero section end */
 
 /* Banner section start */
-
-/* Banner section end */
 .Banner{
     width: 100%;
     height: auto;
@@ -107,6 +105,9 @@ body {
     color: #00000075;
 }
 /* header section end */
+/* Banner section end */
+
+/* main section start */
 /* Plants Section start */
 
 .button{
@@ -117,6 +118,15 @@ body {
     color: white;
     font-size: large;
     cursor: pointer;
+    transition: 1s;
+}
+
+.button:hover{
+    border-radius: 1rem;
+    background: white;
+    color: #E95A08;
+    border: 1px solid black;
+    box-shadow: 1px 1px 9px black;
 }
 
 .Plants{
@@ -203,6 +213,44 @@ body {
     width: 100%;
     height: auto;
 }
-
-
 /* Plants Section end */
+
+/* Plants Lover Section start */
+.Plants-Lover-Section{
+    padding: 12rem 9.375rem 8rem 9.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+}
+
+.Plants-Lover-Section > img{
+    width: 50vw;
+}
+
+.Plants-Lover-Section > div img{
+    position: absolute;
+    top: 8%;
+    left: 34%;
+}
+
+.Plants-Lover-Section > div h1{
+    font-size: 3vw;
+}
+
+.Plants-Lover-Section > div ul{
+    padding-left: 2rem;
+    color: #00000075;
+}
+
+.Plants-Lover-Section > div ul li p{
+    font-size: 1.15vw;
+    color: #00000075;
+    margin: 1rem 0rem;
+}
+/* Plants Lover Section end */
+
+
+
+/* mian section end */

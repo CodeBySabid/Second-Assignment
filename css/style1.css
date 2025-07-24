@@ -30,7 +30,6 @@
     /* Banner section start */
     .Banner {
         padding: 0;
-        width: 100%;
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 2;
@@ -64,6 +63,7 @@
     /* Banner section end */
     /* header section end */
 
+    /* main section start */
     /* Plants Section start */
     .Plants {
         padding: 0;
@@ -105,7 +105,41 @@
     .box-7 , .box-8 {
         display: none;
     }
-
     /* Plants Section end */
+
+    /* Plants Lover Section start */
+    .Plants-Lover-Section{
+        padding: 0rem 0.8rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+    
+    .Plants-Lover-Section > img{
+        width: 100%;
+    }
+
+    .Plants-Lover-Section > div{
+        width: 100%;
+    }
+
+    .Plants-Lover-Section > div img{
+        display: none;
+    }
+
+    .Plants-Lover-Section > div h1{
+        font-size: x-large;
+    }
+
+    .Plants-Lover-Section > div ul{
+        padding-left: 1.5rem;
+    }
+
+    .Plants-Lover-Section > div ul li p{
+        font-size: 3.6vw;
+    }
+    /* Plants Lover Section end */
+
+    /* main section end */
 
 }
