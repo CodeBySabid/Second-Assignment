@@ -132,7 +132,7 @@ body {
 .Plants{
     width: 100%;
     height: auto;
-    padding: 2rem 9.375rem;;
+    padding: 2rem 9.375rem;
 }
 
 .Our-Plants{
@@ -226,17 +226,17 @@ body {
 }
 
 .Plants-Lover-Section > img{
-    width: 50vw;
+    width: 40rem;
 }
 
 .Plants-Lover-Section > div img{
     position: absolute;
-    top: 8%;
-    left: 34%;
+    top: 4.5rem;
+    left: 30rem;
 }
 
 .Plants-Lover-Section > div h1{
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .Plants-Lover-Section > div ul{
@@ -245,12 +245,87 @@ body {
 }
 
 .Plants-Lover-Section > div ul li p{
-    font-size: 1.15vw;
+    font-size: 1.4rem;
     color: #00000075;
     margin: 1rem 0rem;
 }
 /* Plants Lover Section end */
+/* Latest Deals section start */
+.Latest-Deals{
+    width: 100%;
+    padding: 2rem 9.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.Latest-Deals-title h1{
+    font-size: 3vw;
+    margin-bottom: 1rem;
+}
+
+.Latest-Deals-title h1 span{
+    color: #E95A08;
+}
+
+.Latest-Deals-title p{
+    color: #00000075;
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+
+.Latest-Deals-image div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Latest-Deals-image div h1{
+    color: white;
+}
+.Latest-Deals-image div a{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-top: 0.8rem;
+}
+
+.Latest-Deals-image{
+    display: grid;
+    grid-template-columns: repeat(3, 24rem);
+    grid-template-rows: repeat(2, 12rem);
+    grid-template-areas: 
+    "img-1 img-3 img-3"
+    "img-2 img-3 img-3";
+    gap: 1rem;
+}
+
+.img-1{
+    background: rgba(0,0,0,0.4)url(../assets/deal-ana.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    grid-area: img-1;
+    border-radius: 1rem;
+}
+
+.img-2{ 
+    background: rgba(0,0,0,0.4)url(../assets/deal-bloom.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    grid-area: img-2;
+    border-radius: 1rem;
+}
+
+.img-3{
+    background: rgba(0,0,0,0.4)url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    grid-area: img-3;
+    border-radius: 1rem;
+}
+
+/* Latest Deals section end */
 
 
 /* mian section end */

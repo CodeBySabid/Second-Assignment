@@ -11,7 +11,7 @@
         padding: 1rem 1rem;
     }
 
-    .header > img {
+    .header>img {
         width: 3.938rem;
     }
 
@@ -37,25 +37,25 @@
             "box-2";
     }
 
-    .Banner > img {
+    .Banner>img {
         margin-top: 3rem;
         grid-area: box-1;
         width: 100%;
     }
 
-    .Banner > div {
+    .Banner>div {
         width: 100%;
         grid-area: box-2;
         margin-top: 1rem;
         padding: 0.5rem;
     }
 
-    .Banner > div h1 {
+    .Banner>div h1 {
         font-size: 7vw;
         margin-bottom: 0rem;
     }
 
-    .Banner > div p {
+    .Banner>div p {
         margin-top: 0.6rem;
         font-size: 3.8vw;
     }
@@ -73,16 +73,17 @@
         margin-bottom: 1.5rem;
         margin-top: 2.58rem;
     }
-    .Our-Plants > h1 {
+
+    .Our-Plants>h1 {
         font-size: 9vw;
     }
 
-    .Our-Plants > p{
+    .Our-Plants>p {
         width: 90vw;
         font-size: 3.8vw;
     }
 
-    .Our-Plants > p br{
+    .Our-Plants>p br {
         display: none;
     }
 
@@ -98,47 +99,82 @@
         gap: 1.22rem;
     }
 
-    .box{
+    .box {
         gap: 0.8rem;
     }
 
-    .box-7 , .box-8 {
+    .box-7,
+    .box-8 {
         display: none;
     }
+
     /* Plants Section end */
 
     /* Plants Lover Section start */
-    .Plants-Lover-Section{
+    .Plants-Lover-Section {
         padding: 0rem 0.8rem;
         flex-direction: column;
         justify-content: flex-start;
         gap: 1rem;
     }
-    
-    .Plants-Lover-Section > img{
+
+    .Plants-Lover-Section>img {
         width: 100%;
     }
 
-    .Plants-Lover-Section > div{
+    .Plants-Lover-Section>div {
         width: 100%;
     }
 
-    .Plants-Lover-Section > div img{
+    .Plants-Lover-Section>div img {
         display: none;
     }
 
-    .Plants-Lover-Section > div h1{
+    .Plants-Lover-Section>div h1 {
         font-size: x-large;
     }
 
-    .Plants-Lover-Section > div ul{
+    .Plants-Lover-Section>div ul {
         padding-left: 1.5rem;
     }
 
-    .Plants-Lover-Section > div ul li p{
+    .Plants-Lover-Section>div ul li p {
         font-size: 3.6vw;
     }
+
     /* Plants Lover Section end */
+    /* Latest Deals section start */
+    .Latest-Deals {
+        padding: 0rem 0.8rem;
+    }
+
+    .Latest-Deals-title{
+        padding-top: 3rem;
+    }
+
+    .Latest-Deals-title h1 {
+        font-size: 2rem;
+    }
+
+    .Latest-Deals-title p {
+        font-size: 3.6vw;
+        width: 85vw;
+        margin-bottom: 2rem;
+    }
+
+    .Latest-Deals-image {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(3, 12rem);
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3";
+        gap: 1rem;
+    }
+
+    /* Latest Deals section end */
 
     /* main section end */
 
