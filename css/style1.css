@@ -148,7 +148,7 @@
         padding: 0rem 0.8rem;
     }
 
-    .Latest-Deals-title{
+    .Latest-Deals-title {
         padding-top: 3rem;
     }
 
@@ -175,6 +175,36 @@
     }
 
     /* Latest Deals section end */
+    /* Join Section start */
+    .Join-Section {
+        height: 17.25rem;
+        background-size: cover;
+        gap: 1rem;
+        margin-top: 1.8rem;
+    }
+
+    .Join-Section>h1 {
+        font-size: 1.2rem;
+    }
+
+    .Join-Section>div {
+        display: flex;
+        align-items: center;
+    }
+
+    .Join-Section>div>input {
+        width: 15rem;
+        height: 2.5rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .Join-Section>div>button {
+        width: 8rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+    }
+
+    /* Join Section end */
 
     /* main section end */
 

@@ -327,5 +327,40 @@ body {
 
 /* Latest Deals section end */
 
+/* Join Section start */
+.Join-Section{
+    width: 100%;
+    height: 33.313rem;
+    background: url(../assets/news-letter-bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Join-Section > h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.Join-Section > div{
+    display: flex;
+    align-items: center;
+}
+
+.Join-Section > div > input{
+    width: 42rem;
+    height: 3rem;
+    padding: 0.8rem 1rem;
+    border: none;
+}
+
+.Join-Section > div > button{
+    width: 12rem;
+    height: 3rem;
+}
+/* Join Section end */
+
 
 /* mian section end */
