@@ -21,6 +21,8 @@
 
     .card {
         display: block;
+        display: flex;
+        align-items: center;
     }
 
     /* hero section end */
@@ -33,7 +35,7 @@
         grid-template-columns: 1;
         grid-template-rows: 2;
         grid-template-areas: "box-1"
-        "box-2";
+            "box-2";
     }
 
     .Banner > img {
@@ -61,4 +63,49 @@
 
     /* Banner section end */
     /* header section end */
+
+    /* Plants Section start */
+    .Plants {
+        padding: 0;
+    }
+
+    .Our-Plants {
+        margin-bottom: 1.5rem;
+        margin-top: 2.58rem;
+    }
+    .Our-Plants > h1 {
+        font-size: 9vw;
+    }
+
+    .Our-Plants > p{
+        width: 90vw;
+        font-size: 3.8vw;
+    }
+
+    .Our-Plants > p br{
+        display: none;
+    }
+
+    .Our-Plants-card {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+            "box-1 box-2 "
+            "box-3 box-4"
+            "box-5 box-6";
+        gap: 1.22rem;
+    }
+
+    .box{
+        gap: 0.8rem;
+    }
+
+    .box-7 , .box-8 {
+        display: none;
+    }
+
+    /* Plants Section end */
+
 }

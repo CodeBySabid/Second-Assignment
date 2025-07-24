@@ -10,12 +10,15 @@
 
 h1{
     font-family: "Noto Serif", serif;
-    font-style: normal;    
+    font-style: normal; 
+    color: #000000;  
 }
 
 a{
     text-decoration: none;
 }
+
+
 
 body {
     width: 100%;
@@ -62,15 +65,19 @@ body {
     color: black;
 }
 
+.card{
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
 .header nav ul a img{ 
-    color: black;
     margin-right: 0.5rem;
     width: 1.3rem;
 }
 /* hero section end */
 
 /* Banner section start */
-
 
 /* Banner section end */
 .Banner{
@@ -98,11 +105,104 @@ body {
 
 .Banner > div p{
     color: #00000075;
-    line-height: 1.4rem
+}
+/* header section end */
+/* Plants Section start */
+
+.button{
+    width: 100%;
+    background: #E95A08;
+    padding: 0.7rem;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.Plants{
+    width: 100%;
+    height: auto;
+    padding: 2rem 9.375rem;;
+}
+
+.Our-Plants{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0rem;
+}
+
+.Our-Plants > h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.Our-Plants > h1 span{
+    color: #E95A08;
+}
+
+.Our-Plants > p{
+    font-size: x-large;
+    color: #00000075;
+}
+
+.Our-Plants-card{
+    display: grid;
+    grid-template-columns: repeat(4, 16.875rem);
+    grid-template-rows: repeat(2, 30.25rem);
+    grid-template-areas: 
+    "box-1 box-2 box-3 box-4"
+    "box-5 box-6 box-7 box-8";
+    gap: 1.22rem;
+}
+
+.box-1{
+    grid-area: box-1;
+}
+
+.box-2{
+    grid-area: box-2;
+}
+
+.box-3{
+    grid-area: box-3;
+}
+
+.box-4{
+    grid-area: box-4;
+}
+
+.box-5{
+    grid-area: box-5;
+}
+
+.box-6{
+    grid-area: box-6;
+}
+
+.box-7{
+    grid-area: box-7;
+}
+
+.box-8{
+    grid-area: box-8;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 1.4rem;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
 }
 
 
-
-
-
-/* header section end */
+/* Plants Section end */
