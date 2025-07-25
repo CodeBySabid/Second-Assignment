@@ -142,6 +142,18 @@
         font-size: 3.6vw;
     }
 
+    .img-1{
+        background: rgba(0,0,0,0.6)url(../assets/deal-ana.png);
+    }
+
+    .img-2{
+        background: rgba(0,0,0,0.6)url(../assets/deal-bloom.png);
+    }
+
+    .img-3{
+        background: rgba(0,0,0,0.6)url(../assets/deal-zabo.png);
+    }
+
     /* Plants Lover Section end */
     /* Latest Deals section start */
     .Latest-Deals {
@@ -193,13 +205,13 @@
     }
 
     .Join-Section>div>input {
-        width: 15rem;
+        width: 50vw;
         height: 2.5rem;
         padding: 0.5rem 0.8rem;
     }
 
     .Join-Section>div>button {
-        width: 8rem;
+        width: 29vw;
         height: 2.5rem;
         padding: 0.5rem;
     }
@@ -207,5 +219,40 @@
     /* Join Section end */
 
     /* main section end */
+
+    /* footer section start */
+    footer {
+        padding: 3.125rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .Website-logo-div-1>p {
+        width: 90vw;
+        font-size: 1.2rem;
+        color: #00000075;
+        margin-top: 1rem;
+    }
+
+    .Website-logo-div-1>img {
+        width: 8rem;
+        height: auto;
+    }
+
+    .Website-logo-div-2,
+    .Website-logo-div-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Website-logo-div-4 {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    /* footer section end */
 
 }
